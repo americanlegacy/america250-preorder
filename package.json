@@ -1,0 +1,13 @@
+{
+  "name": "america250-preorder",
+  "version": "1.0.0",
+  "description": "America 250 Commemorative Coin Preorder Site",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "stripe": "^14.0.0"
+  }
+}
