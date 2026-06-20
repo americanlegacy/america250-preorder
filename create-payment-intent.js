@@ -22,7 +22,7 @@ module.exports = async (req, res) => {
     const { amount, quantity, name, email, address } = req.body;
 
     // Validate amount matches expected pricing
-    const validAmounts = [7900, 14900, 21000]; // cents: $79, $149, $210
+    const validAmounts = [2495, 4495, 5995]; // cents: $24.95, $44.95, $59.95
     if (!validAmounts.includes(amount)) {
       return res.status(400).json({ error: 'Invalid order amount.' });
     }
