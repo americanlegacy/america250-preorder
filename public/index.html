@@ -205,7 +205,7 @@
       <div class="progress-legend"><span>0%</span><span id="pct-label">57% FUNDED</span><span>GOAL: $25,000</span></div>
     </div>
 
-    <a href="#preorder" style="display:inline-block;background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-light));color:var(--black);font-family:'Cinzel',serif;font-size:13px;font-weight:700;letter-spacing:3px;padding:18px 44px;text-decoration:none;clip-path:polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%);transition:all 0.25s;">RESERVE MY COIN — $79</a>
+    <a href="#preorder" style="display:inline-block;background:linear-gradient(135deg,var(--gold-deep),var(--gold),var(--gold-light));color:var(--black);font-family:'Cinzel',serif;font-size:13px;font-weight:700;letter-spacing:3px;padding:18px 44px;text-decoration:none;clip-path:polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%);transition:all 0.25s;">RESERVE MY COIN — $24.95</a>
     <span style="font-family:'Cinzel',serif;font-size:11px;color:#555;letter-spacing:1px;margin-left:12px;">Normally $89 at launch</span>
   </div>
   <div style="display:flex;justify-content:center;align-items:center;">
@@ -242,7 +242,7 @@
   <div class="section-title">TRANSPARENT PROCESS</div>
   <h2 class="section-heading">How the Preorder Works</h2>
   <div class="steps">
-    <div class="step"><div class="step-num">1</div><div class="step-title">YOU RESERVE</div><div class="step-desc">Preorder today and lock in the early bird price of $79. Your card is charged now to secure your spot in the mint run.</div></div>
+    <div class="step"><div class="step-num">1</div><div class="step-title">YOU RESERVE</div><div class="step-desc">Preorder today and lock in the early bird price of $24.95. Your card is charged now to secure your spot in the mint run.</div></div>
     <div class="step"><div class="step-num">2</div><div class="step-title">WE HIT THE GOAL</div><div class="step-desc">Once $25,000 in preorders is reached, we send the design to the mint and production begins immediately.</div></div>
     <div class="step"><div class="step-num">3</div><div class="step-title">COIN IS MINTED</div><div class="step-desc">Production takes 6–8 weeks. You'll receive email updates every step of the way — from mint to shipment.</div></div>
     <div class="step"><div class="step-num">4</div><div class="step-title">SHIPS TO YOU</div><div class="step-desc">Your coin ships in a premium presentation box with a certificate of authenticity. Tracking included.</div></div>
@@ -261,9 +261,9 @@
 
     <p style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:2px;color:var(--gold);margin-bottom:14px;">SELECT QUANTITY</p>
     <div class="qty-row">
-      <button class="qty-option active" onclick="setQty(this,79,7900,1)">1 COIN<span class="qty-price">$79</span><span class="qty-save">SAVE $10</span></button>
-      <button class="qty-option" onclick="setQty(this,149,14900,2)">2 COINS<span class="qty-price">$149</span><span class="qty-save">SAVE $29</span></button>
-      <button class="qty-option" onclick="setQty(this,210,21000,3)">3 COINS<span class="qty-price">$210</span><span class="qty-save">SAVE $57</span></button>
+      <button class="qty-option active" onclick="setQty(this,24.95,2495,1)">1 COIN<span class="qty-price">$24.95</span><span class="qty-save">SAVE $10</span></button>
+      <button class="qty-option" onclick="setQty(this,44.95,4495,2)">2 COINS<span class="qty-price">$44.95</span><span class="qty-save">SAVE $29</span></button>
+      <button class="qty-option" onclick="setQty(this,59.95,5995,3)'">3 COINS<span class="qty-price">$59.95</span><span class="qty-save">SAVE $57</span></button>
     </div>
 
     <div class="form-grid">
@@ -295,7 +295,7 @@
         <div class="order-total-label">PREORDER TOTAL</div>
         <div class="order-total-sub">Charged today · Fully refundable if goal not met</div>
       </div>
-      <span class="order-total-price" id="total-display">$79.00</span>
+      <span class="order-total-price" id="total-display">$24.95</span>
     </div>
 
     <button class="checkout-btn" id="submit-btn" onclick="handlePreorder()">★ RESERVE MY COIN NOW ★</button>
@@ -379,8 +379,8 @@ cardElement.on('change', e => {
 // ─────────────────────────────────────────────
 // QUANTITY & PRICING
 // ─────────────────────────────────────────────
-let currentDisplay = '$79.00';
-let currentAmountCents = 7900;
+let currentDisplay = '$24.95';
+let currentAmountCents = 2495';
 let currentQty = 1;
 
 function setQty(el, display, cents, qty) {
